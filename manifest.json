@@ -1,0 +1,14 @@
+{
+    "name": "SIMPLIFIED BURNDOWN",
+    "description": "Githubのプロジェクトページにストーリーポイントの消化率を表示",
+    "version": "0.1",
+    "content_scripts": [{
+      "js": ["js/background.js"],
+      "matches": ["https://github.com/*"]
+    }],
+    "browser_action": {
+    //   "default_icon": "",
+      "default_title": "SIMPLIFIED BURNDOWN"
+    },
+    "manifest_version": 2
+  }
